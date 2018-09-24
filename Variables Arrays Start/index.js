@@ -1,39 +1,20 @@
-console.log('Swapping Variables Within Objects');
-
 // Create 10 variables about yourself
-let MeganSpence ={
-  firstname: "Megan",
-  lastname: "Spence",
-  age: 14,
-  ageAfraid: null,
-  hair: "Reddish Brown",
-  female: true,
-  male: false,
-}
+let MeganSpence = [];
+let MarkMercer = [];
 
-let MarkMercer ={
-  firstname: "Mark",
-  lastname: "Mercer",
-  age: 13,
-  ageAfraid: 29,
-  hair: null,
-  female: false,
-  male: true,
-}
-
-// Your code goes here, swap first names
-let memory = MeganSpence.firstname;
-MeganSpence.firstname = MarkMercer.firstname
-MarkMercer.firstname = memory
+// firstname, lastname, age, ageAfraid, hair, female, male
+MeganSpence = ["Megan", "Spence", 14, null, "Reddish Brown", true, false];
+MarkMercer = ["Mark", "Mercer", 13, 29, null, false, true];
 
 // Printing out entire object
-
 console.log(MeganSpence);
 console.log(MarkMercer);
 
 // Print first names only
 
-console.log("Megan's first name is: " + MeganSpence.firstname);
-console.log("Mark's first name is: " + MarkMercer.firstname);
+console.log("last name is: " + MeganSpence [1]);
+console.log("last name is: " + MarkMercer [1]);
 
+MeganSpence[1]="Is Awesome"
+console.log(MeganSpence)
 // Print vairables to the console
