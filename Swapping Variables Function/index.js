@@ -13,5 +13,5 @@ MarkMercer[1]= Memory
 
 // Print first names only
 
-console.log("last name of MeganSpence is: " + MeganSpence [1]);
-console.log("last name of MarkMercer is: " + MarkMercer [1]);
+console.log("last name of MeganSpence is: " + MeganSpence [1]); // should return mercer
+console.log("last name of MarkMercer is: " + MarkMercer [1]); // should return spence
